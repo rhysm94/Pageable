@@ -1,0 +1,22 @@
+#%RAML 1.0 Trait
+
+queryParameters:
+  offset?:
+    displayName: Offset
+    description: Number of <<resourcePathName>> to offset by
+    type: integer
+    minimum: 0
+    default: 0
+  limit?:
+    displayName: Limit
+    description: How many <<resourcePathName>> to return
+    type: integer
+    minimum: 1
+    default: 50
+
+responses:
+  200:
+    headers:
+      Link?:
+        displayName: Link
+        type: !include Link.raml

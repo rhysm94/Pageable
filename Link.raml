@@ -1,0 +1,16 @@
+#%RAML 1.0 DataType
+additionalProperties: false
+properties:
+  next?:
+    displayName: Next Page
+    description: Hyperlink for next page of results
+    type: string
+  previous:
+    displayName: Previous Page
+    description: Hyperlink for previous page of results
+    type: string
+  first:
+    displayName: First Page
+    description: Hyperlink for first page of results
+    type: string
+example: !include Link.json

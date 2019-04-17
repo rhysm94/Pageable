@@ -1,0 +1,5 @@
+{
+  "next": "https://mycompany.com/resource?offset=75&limit=25",
+  "previous": "https://mycompany.com/resource?offset=25&limit=25",
+  "first": "https://mycompany.com/resource?offset=0&limit=25"
+}
